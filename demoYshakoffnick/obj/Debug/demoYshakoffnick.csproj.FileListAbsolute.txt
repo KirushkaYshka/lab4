@@ -1,0 +1,56 @@
+D:\Users\ST315-05\Desktop\практика\c#\demoYshakoffnick\demoYshakoffnick\obj\Debug\demoYshakoffnick.csproj.AssemblyReference.cache
+D:\Users\ST315-05\Desktop\практика\c#\demoYshakoffnick\demoYshakoffnick\obj\Debug\AddEditWindow.g.cs
+D:\Users\ST315-05\Desktop\практика\c#\demoYshakoffnick\demoYshakoffnick\obj\Debug\AuthorizationWindow.g.cs
+D:\Users\ST315-05\Desktop\практика\c#\demoYshakoffnick\demoYshakoffnick\obj\Debug\MainWindow.g.cs
+D:\Users\ST315-05\Desktop\практика\c#\demoYshakoffnick\demoYshakoffnick\obj\Debug\RefreshWindow.g.cs
+D:\Users\ST315-05\Desktop\практика\c#\demoYshakoffnick\demoYshakoffnick\obj\Debug\App.g.cs
+D:\Users\ST315-05\Desktop\практика\c#\demoYshakoffnick\demoYshakoffnick\obj\Debug\demoYshakoffnick_Content.g.cs
+D:\Users\ST315-05\Desktop\практика\c#\demoYshakoffnick\demoYshakoffnick\obj\Debug\demoYshakoffnick_MarkupCompile.cache
+D:\Users\ST315-05\Desktop\практика\c#\demoYshakoffnick\demoYshakoffnick\obj\Debug\demoYshakoffnick_MarkupCompile.lref
+D:\Users\ST315-05\Desktop\практика\c#\demoYshakoffnick\demoYshakoffnick\bin\Debug\demoYshakoffnick.exe.config
+D:\Users\ST315-05\Desktop\практика\c#\demoYshakoffnick\demoYshakoffnick\bin\Debug\demoYshakoffnick.exe
+D:\Users\ST315-05\Desktop\практика\c#\demoYshakoffnick\demoYshakoffnick\bin\Debug\demoYshakoffnick.pdb
+D:\Users\ST315-05\Desktop\практика\c#\demoYshakoffnick\demoYshakoffnick\bin\Debug\EntityFramework.dll
+D:\Users\ST315-05\Desktop\практика\c#\demoYshakoffnick\demoYshakoffnick\bin\Debug\EntityFramework.SqlServer.dll
+D:\Users\ST315-05\Desktop\практика\c#\demoYshakoffnick\demoYshakoffnick\bin\Debug\EntityFramework.xml
+D:\Users\ST315-05\Desktop\практика\c#\demoYshakoffnick\demoYshakoffnick\bin\Debug\EntityFramework.SqlServer.xml
+D:\Users\ST315-05\Desktop\практика\c#\demoYshakoffnick\demoYshakoffnick\bin\Debug\ru\EntityFramework.resources.dll
+D:\Users\ST315-05\Desktop\практика\c#\demoYshakoffnick\demoYshakoffnick\obj\Debug\AddEditWindow.baml
+D:\Users\ST315-05\Desktop\практика\c#\demoYshakoffnick\demoYshakoffnick\obj\Debug\AuthorizationWindow.baml
+D:\Users\ST315-05\Desktop\практика\c#\demoYshakoffnick\demoYshakoffnick\obj\Debug\MainWindow.baml
+D:\Users\ST315-05\Desktop\практика\c#\demoYshakoffnick\demoYshakoffnick\obj\Debug\RefreshWindow.baml
+D:\Users\ST315-05\Desktop\практика\c#\demoYshakoffnick\demoYshakoffnick\obj\Debug\demoYshakoffnick.g.resources
+D:\Users\ST315-05\Desktop\практика\c#\demoYshakoffnick\demoYshakoffnick\obj\Debug\demoYshakoffnick.Properties.Resources.resources
+D:\Users\ST315-05\Desktop\практика\c#\demoYshakoffnick\demoYshakoffnick\obj\Debug\demoYshakoffnick.csproj.GenerateResource.cache
+D:\Users\ST315-05\Desktop\практика\c#\demoYshakoffnick\demoYshakoffnick\obj\Debug\demoYshakoffnick.csproj.CoreCompileInputs.cache
+D:\Users\ST315-05\Desktop\практика\c#\demoYshakoffnick\demoYshakoffnick\obj\Debug\demoYsha.75BDEC46.Up2Date
+D:\Users\ST315-05\Desktop\практика\c#\demoYshakoffnick\demoYshakoffnick\obj\Debug\demoYshakoffnick.exe
+D:\Users\ST315-05\Desktop\практика\c#\demoYshakoffnick\demoYshakoffnick\obj\Debug\demoYshakoffnick.pdb
+E:\практика шевцова\практика\c#\demoYshakoffnick\demoYshakoffnick\bin\Debug\demoYshakoffnick.exe.config
+E:\практика шевцова\практика\c#\demoYshakoffnick\demoYshakoffnick\bin\Debug\demoYshakoffnick.exe
+E:\практика шевцова\практика\c#\demoYshakoffnick\demoYshakoffnick\bin\Debug\demoYshakoffnick.pdb
+E:\практика шевцова\практика\c#\demoYshakoffnick\demoYshakoffnick\bin\Debug\EntityFramework.dll
+E:\практика шевцова\практика\c#\demoYshakoffnick\demoYshakoffnick\bin\Debug\EntityFramework.SqlServer.dll
+E:\практика шевцова\практика\c#\demoYshakoffnick\demoYshakoffnick\bin\Debug\EntityFramework.xml
+E:\практика шевцова\практика\c#\demoYshakoffnick\demoYshakoffnick\bin\Debug\EntityFramework.SqlServer.xml
+E:\практика шевцова\практика\c#\demoYshakoffnick\demoYshakoffnick\bin\Debug\ru\EntityFramework.resources.dll
+E:\практика шевцова\практика\c#\demoYshakoffnick\demoYshakoffnick\obj\Debug\demoYshakoffnick.csproj.AssemblyReference.cache
+E:\практика шевцова\практика\c#\demoYshakoffnick\demoYshakoffnick\obj\Debug\AddEditWindow.g.cs
+E:\практика шевцова\практика\c#\demoYshakoffnick\demoYshakoffnick\obj\Debug\AuthorizationWindow.g.cs
+E:\практика шевцова\практика\c#\demoYshakoffnick\demoYshakoffnick\obj\Debug\MainWindow.g.cs
+E:\практика шевцова\практика\c#\demoYshakoffnick\demoYshakoffnick\obj\Debug\RefreshWindow.g.cs
+E:\практика шевцова\практика\c#\demoYshakoffnick\demoYshakoffnick\obj\Debug\App.g.cs
+E:\практика шевцова\практика\c#\demoYshakoffnick\demoYshakoffnick\obj\Debug\demoYshakoffnick_Content.g.cs
+E:\практика шевцова\практика\c#\demoYshakoffnick\demoYshakoffnick\obj\Debug\demoYshakoffnick_MarkupCompile.cache
+E:\практика шевцова\практика\c#\demoYshakoffnick\demoYshakoffnick\obj\Debug\demoYshakoffnick_MarkupCompile.lref
+E:\практика шевцова\практика\c#\demoYshakoffnick\demoYshakoffnick\obj\Debug\AddEditWindow.baml
+E:\практика шевцова\практика\c#\demoYshakoffnick\demoYshakoffnick\obj\Debug\AuthorizationWindow.baml
+E:\практика шевцова\практика\c#\demoYshakoffnick\demoYshakoffnick\obj\Debug\MainWindow.baml
+E:\практика шевцова\практика\c#\demoYshakoffnick\demoYshakoffnick\obj\Debug\RefreshWindow.baml
+E:\практика шевцова\практика\c#\demoYshakoffnick\demoYshakoffnick\obj\Debug\demoYshakoffnick.g.resources
+E:\практика шевцова\практика\c#\demoYshakoffnick\demoYshakoffnick\obj\Debug\demoYshakoffnick.Properties.Resources.resources
+E:\практика шевцова\практика\c#\demoYshakoffnick\demoYshakoffnick\obj\Debug\demoYshakoffnick.csproj.GenerateResource.cache
+E:\практика шевцова\практика\c#\demoYshakoffnick\demoYshakoffnick\obj\Debug\demoYshakoffnick.csproj.CoreCompileInputs.cache
+E:\практика шевцова\практика\c#\demoYshakoffnick\demoYshakoffnick\obj\Debug\demoYsha.75BDEC46.Up2Date
+E:\практика шевцова\практика\c#\demoYshakoffnick\demoYshakoffnick\obj\Debug\demoYshakoffnick.exe
+E:\практика шевцова\практика\c#\demoYshakoffnick\demoYshakoffnick\obj\Debug\demoYshakoffnick.pdb

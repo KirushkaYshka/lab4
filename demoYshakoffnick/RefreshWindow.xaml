@@ -1,0 +1,22 @@
+﻿<Window x:Class="demoYshakoffnick.RefreshWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:demoYshakoffnick"
+        mc:Ignorable="d"
+               Title="Обновление заявки" Height="450" Width="300">
+    <StackPanel Margin="10">
+        <TextBlock Text="ФИО:"/>
+        <TextBox x:Name="DescriptionTextBox"/>
+        <TextBlock Text="Статус Брони:"/>
+        <ComboBox x:Name="StatusComboBox" DisplayMemberPath="status_name"/>
+        <TextBlock Text="Тренер:"/>
+        <ComboBox x:Name="WorkerComboBox" DisplayMemberPath="trainer_name"/>
+        <TextBlock Text="Тип тренировки:"/>
+        <ComboBox x:Name="FaultTypeComboBox" DisplayMemberPath="training_type_name"/>
+        <TextBlock Text="Тренажёр:"/>
+        <ComboBox x:Name="ClientComboBox" DisplayMemberPath="equipment_name"/>
+        <Button Content="Обновить" Click="UpdateButton_Click"/>
+    </StackPanel>
+</Window>

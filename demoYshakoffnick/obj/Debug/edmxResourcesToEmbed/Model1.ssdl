@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище YshakoffEntitiesModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Account">
+    <Key>
+      <PropertyRef Name="id_account" />
+    </Key>
+    <Property Name="id_account" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Login_" Type="nvarchar" MaxLength="45" />
+    <Property Name="Password_" Type="nvarchar" MaxLength="100" />
+    <Property Name="id_role" Type="int" />
+  </EntityType>
+  <EntityType Name="Bookings">
+    <Key>
+      <PropertyRef Name="booking_id" />
+    </Key>
+    <Property Name="booking_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="booking_date" Type="date" />
+    <Property Name="equipment_id" Type="int" />
+    <Property Name="training_type_id" Type="int" />
+    <Property Name="member_id" Type="int" />
+    <Property Name="status_id" Type="int" />
+    <Property Name="trainer_id" Type="int" />
+  </EntityType>
+  <EntityType Name="BookingStatus">
+    <Key>
+      <PropertyRef Name="status_id" />
+    </Key>
+    <Property Name="status_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="status_name" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="Equipment">
+    <Key>
+      <PropertyRef Name="equipment_id" />
+    </Key>
+    <Property Name="equipment_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="equipment_name" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="Members">
+    <Key>
+      <PropertyRef Name="member_id" />
+    </Key>
+    <Property Name="member_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="member_name" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="Role_">
+    <Key>
+      <PropertyRef Name="id_role" />
+    </Key>
+    <Property Name="id_role" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name_role" Type="nvarchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="Trainers">
+    <Key>
+      <PropertyRef Name="trainer_id" />
+    </Key>
+    <Property Name="trainer_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="trainer_name" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="TrainingTypes">
+    <Key>
+      <PropertyRef Name="training_type_id" />
+    </Key>
+    <Property Name="training_type_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="training_type_name" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <Association Name="FK__Account__id_role__267ABA7A">
+    <End Role="Role_" Type="Self.Role_" Multiplicity="0..1" />
+    <End Role="Account" Type="Self.Account" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Role_">
+        <PropertyRef Name="id_role" />
+      </Principal>
+      <Dependent Role="Account">
+        <PropertyRef Name="id_role" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Bookings__equipm__32E0915F">
+    <End Role="Equipment" Type="Self.Equipment" Multiplicity="0..1" />
+    <End Role="Bookings" Type="Self.Bookings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Equipment">
+        <PropertyRef Name="equipment_id" />
+      </Principal>
+      <Dependent Role="Bookings">
+        <PropertyRef Name="equipment_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Bookings__member__34C8D9D1">
+    <End Role="Members" Type="Self.Members" Multiplicity="0..1" />
+    <End Role="Bookings" Type="Self.Bookings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Members">
+        <PropertyRef Name="member_id" />
+      </Principal>
+      <Dependent Role="Bookings">
+        <PropertyRef Name="member_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Bookings__status__35BCFE0A">
+    <End Role="BookingStatus" Type="Self.BookingStatus" Multiplicity="0..1" />
+    <End Role="Bookings" Type="Self.Bookings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BookingStatus">
+        <PropertyRef Name="status_id" />
+      </Principal>
+      <Dependent Role="Bookings">
+        <PropertyRef Name="status_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Bookings__traine__36B12243">
+    <End Role="Trainers" Type="Self.Trainers" Multiplicity="0..1" />
+    <End Role="Bookings" Type="Self.Bookings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Trainers">
+        <PropertyRef Name="trainer_id" />
+      </Principal>
+      <Dependent Role="Bookings">
+        <PropertyRef Name="trainer_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Bookings__traini__33D4B598">
+    <End Role="TrainingTypes" Type="Self.TrainingTypes" Multiplicity="0..1" />
+    <End Role="Bookings" Type="Self.Bookings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TrainingTypes">
+        <PropertyRef Name="training_type_id" />
+      </Principal>
+      <Dependent Role="Bookings">
+        <PropertyRef Name="training_type_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище YshakoffEntitiesModelContainer">
+    <EntitySet Name="Account" EntityType="Self.Account" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Bookings" EntityType="Self.Bookings" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="BookingStatus" EntityType="Self.BookingStatus" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Equipment" EntityType="Self.Equipment" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Members" EntityType="Self.Members" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Role_" EntityType="Self.Role_" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Trainers" EntityType="Self.Trainers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TrainingTypes" EntityType="Self.TrainingTypes" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Account__id_role__267ABA7A" Association="Self.FK__Account__id_role__267ABA7A">
+      <End Role="Role_" EntitySet="Role_" />
+      <End Role="Account" EntitySet="Account" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Bookings__equipm__32E0915F" Association="Self.FK__Bookings__equipm__32E0915F">
+      <End Role="Equipment" EntitySet="Equipment" />
+      <End Role="Bookings" EntitySet="Bookings" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Bookings__member__34C8D9D1" Association="Self.FK__Bookings__member__34C8D9D1">
+      <End Role="Members" EntitySet="Members" />
+      <End Role="Bookings" EntitySet="Bookings" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Bookings__status__35BCFE0A" Association="Self.FK__Bookings__status__35BCFE0A">
+      <End Role="BookingStatus" EntitySet="BookingStatus" />
+      <End Role="Bookings" EntitySet="Bookings" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Bookings__traine__36B12243" Association="Self.FK__Bookings__traine__36B12243">
+      <End Role="Trainers" EntitySet="Trainers" />
+      <End Role="Bookings" EntitySet="Bookings" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Bookings__traini__33D4B598" Association="Self.FK__Bookings__traini__33D4B598">
+      <End Role="TrainingTypes" EntitySet="TrainingTypes" />
+      <End Role="Bookings" EntitySet="Bookings" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

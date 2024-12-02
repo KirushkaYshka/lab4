@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="YshakoffEntitiesModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Account">
+    <Key>
+      <PropertyRef Name="id_account" />
+    </Key>
+    <Property Name="id_account" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Login_" Type="String" MaxLength="45" FixedLength="false" Unicode="true" />
+    <Property Name="Password_" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="id_role" Type="Int32" />
+    <NavigationProperty Name="Role_" Relationship="Self.FK__Account__id_role__267ABA7A" FromRole="Account" ToRole="Role_" />
+  </EntityType>
+  <EntityType Name="Bookings">
+    <Key>
+      <PropertyRef Name="booking_id" />
+    </Key>
+    <Property Name="booking_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="booking_date" Type="DateTime" Precision="0" />
+    <Property Name="equipment_id" Type="Int32" />
+    <Property Name="training_type_id" Type="Int32" />
+    <Property Name="member_id" Type="Int32" />
+    <Property Name="status_id" Type="Int32" />
+    <Property Name="trainer_id" Type="Int32" />
+    <NavigationProperty Name="Equipment" Relationship="Self.FK__Bookings__equipm__32E0915F" FromRole="Bookings" ToRole="Equipment" />
+    <NavigationProperty Name="Members" Relationship="Self.FK__Bookings__member__34C8D9D1" FromRole="Bookings" ToRole="Members" />
+    <NavigationProperty Name="BookingStatus" Relationship="Self.FK__Bookings__status__35BCFE0A" FromRole="Bookings" ToRole="BookingStatus" />
+    <NavigationProperty Name="Trainers" Relationship="Self.FK__Bookings__traine__36B12243" FromRole="Bookings" ToRole="Trainers" />
+    <NavigationProperty Name="TrainingTypes" Relationship="Self.FK__Bookings__traini__33D4B598" FromRole="Bookings" ToRole="TrainingTypes" />
+  </EntityType>
+  <EntityType Name="BookingStatus">
+    <Key>
+      <PropertyRef Name="status_id" />
+    </Key>
+    <Property Name="status_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="status_name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Bookings" Relationship="Self.FK__Bookings__status__35BCFE0A" FromRole="BookingStatus" ToRole="Bookings" />
+  </EntityType>
+  <EntityType Name="Equipment">
+    <Key>
+      <PropertyRef Name="equipment_id" />
+    </Key>
+    <Property Name="equipment_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="equipment_name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Bookings" Relationship="Self.FK__Bookings__equipm__32E0915F" FromRole="Equipment" ToRole="Bookings" />
+  </EntityType>
+  <EntityType Name="Members">
+    <Key>
+      <PropertyRef Name="member_id" />
+    </Key>
+    <Property Name="member_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="member_name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Bookings" Relationship="Self.FK__Bookings__member__34C8D9D1" FromRole="Members" ToRole="Bookings" />
+  </EntityType>
+  <EntityType Name="Role_">
+    <Key>
+      <PropertyRef Name="id_role" />
+    </Key>
+    <Property Name="id_role" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name_role" Type="String" MaxLength="45" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Account" Relationship="Self.FK__Account__id_role__267ABA7A" FromRole="Role_" ToRole="Account" />
+  </EntityType>
+  <EntityType Name="Trainers">
+    <Key>
+      <PropertyRef Name="trainer_id" />
+    </Key>
+    <Property Name="trainer_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="trainer_name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Bookings" Relationship="Self.FK__Bookings__traine__36B12243" FromRole="Trainers" ToRole="Bookings" />
+  </EntityType>
+  <EntityType Name="TrainingTypes">
+    <Key>
+      <PropertyRef Name="training_type_id" />
+    </Key>
+    <Property Name="training_type_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="training_type_name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Bookings" Relationship="Self.FK__Bookings__traini__33D4B598" FromRole="TrainingTypes" ToRole="Bookings" />
+  </EntityType>
+  <Association Name="FK__Account__id_role__267ABA7A">
+    <End Role="Role_" Type="Self.Role_" Multiplicity="0..1" />
+    <End Role="Account" Type="Self.Account" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Role_">
+        <PropertyRef Name="id_role" />
+      </Principal>
+      <Dependent Role="Account">
+        <PropertyRef Name="id_role" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Bookings__equipm__32E0915F">
+    <End Role="Equipment" Type="Self.Equipment" Multiplicity="0..1" />
+    <End Role="Bookings" Type="Self.Bookings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Equipment">
+        <PropertyRef Name="equipment_id" />
+      </Principal>
+      <Dependent Role="Bookings">
+        <PropertyRef Name="equipment_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Bookings__member__34C8D9D1">
+    <End Role="Members" Type="Self.Members" Multiplicity="0..1" />
+    <End Role="Bookings" Type="Self.Bookings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Members">
+        <PropertyRef Name="member_id" />
+      </Principal>
+      <Dependent Role="Bookings">
+        <PropertyRef Name="member_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Bookings__status__35BCFE0A">
+    <End Role="BookingStatus" Type="Self.BookingStatus" Multiplicity="0..1" />
+    <End Role="Bookings" Type="Self.Bookings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BookingStatus">
+        <PropertyRef Name="status_id" />
+      </Principal>
+      <Dependent Role="Bookings">
+        <PropertyRef Name="status_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Bookings__traine__36B12243">
+    <End Role="Trainers" Type="Self.Trainers" Multiplicity="0..1" />
+    <End Role="Bookings" Type="Self.Bookings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Trainers">
+        <PropertyRef Name="trainer_id" />
+      </Principal>
+      <Dependent Role="Bookings">
+        <PropertyRef Name="trainer_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Bookings__traini__33D4B598">
+    <End Role="TrainingTypes" Type="Self.TrainingTypes" Multiplicity="0..1" />
+    <End Role="Bookings" Type="Self.Bookings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TrainingTypes">
+        <PropertyRef Name="training_type_id" />
+      </Principal>
+      <Dependent Role="Bookings">
+        <PropertyRef Name="training_type_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="YshakoffEntitiesEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Account" EntityType="Self.Account" />
+    <EntitySet Name="Bookings" EntityType="Self.Bookings" />
+    <EntitySet Name="BookingStatus" EntityType="Self.BookingStatus" />
+    <EntitySet Name="Equipment" EntityType="Self.Equipment" />
+    <EntitySet Name="Members" EntityType="Self.Members" />
+    <EntitySet Name="Role_" EntityType="Self.Role_" />
+    <EntitySet Name="Trainers" EntityType="Self.Trainers" />
+    <EntitySet Name="TrainingTypes" EntityType="Self.TrainingTypes" />
+    <AssociationSet Name="FK__Account__id_role__267ABA7A" Association="Self.FK__Account__id_role__267ABA7A">
+      <End Role="Role_" EntitySet="Role_" />
+      <End Role="Account" EntitySet="Account" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Bookings__equipm__32E0915F" Association="Self.FK__Bookings__equipm__32E0915F">
+      <End Role="Equipment" EntitySet="Equipment" />
+      <End Role="Bookings" EntitySet="Bookings" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Bookings__member__34C8D9D1" Association="Self.FK__Bookings__member__34C8D9D1">
+      <End Role="Members" EntitySet="Members" />
+      <End Role="Bookings" EntitySet="Bookings" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Bookings__status__35BCFE0A" Association="Self.FK__Bookings__status__35BCFE0A">
+      <End Role="BookingStatus" EntitySet="BookingStatus" />
+      <End Role="Bookings" EntitySet="Bookings" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Bookings__traine__36B12243" Association="Self.FK__Bookings__traine__36B12243">
+      <End Role="Trainers" EntitySet="Trainers" />
+      <End Role="Bookings" EntitySet="Bookings" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Bookings__traini__33D4B598" Association="Self.FK__Bookings__traini__33D4B598">
+      <End Role="TrainingTypes" EntitySet="TrainingTypes" />
+      <End Role="Bookings" EntitySet="Bookings" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

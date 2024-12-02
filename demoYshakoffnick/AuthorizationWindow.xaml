@@ -1,0 +1,22 @@
+﻿<Window x:Class="demoYshakoffnick.AuthorizationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:demoYshakoffnick"
+        mc:Ignorable="d"
+               Title="AuthorizationWIndow" Height="264" Width="385" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/magazin.jpg"/>
+        </Grid.Background>
+        <Label Content="Логин" HorizontalAlignment="Left" Margin="101,26,0,0" VerticalAlignment="Top" Width="49" FontSize="14" Background="Red"/>
+        <Label Content="Пароль" HorizontalAlignment="Left" Margin="101,73,0,0" VerticalAlignment="Top"  FontSize="14" Background="Red"/>
+        <TextBox x:Name="textBoxLogin" HorizontalAlignment="Center" Margin="0,55,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="157" Height="20" FontSize="14"/>
+        <TextBox x:Name="textBoxPassword" HorizontalAlignment="Center" Margin="0,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="157" Height="20" FontSize="14"/>
+        <Button Content="Авторизоваться" HorizontalAlignment="Center" Margin="0,142,0,0" VerticalAlignment="Top" Width="157" FontWeight="Bold"
+                Background="#FF31A62B" BorderBrush="#FF76CB73" OpacityMask="#FF8DE588" Click="Button_Account" FontSize="14"/>
+        <Button Content="Выйти" HorizontalAlignment="Center" Margin="0,189,0,0" VerticalAlignment="Top" Click="Button_Click"
+                Background="#FFED4545" FontWeight="Bold" FontSize="14"/>
+    </Grid>
+</Window>

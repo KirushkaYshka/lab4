@@ -1,0 +1,196 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\\u0448\u0435\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u0448\u0435\u0432\u0446\u043E\u0432\u0430\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\c#\\demoYshakoffnick\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CC67FD2A-5FA9-4351-AC63-C6B4BF46528C}|demoYshakoffnick\\demoYshakoffnick.csproj|E:\\\u0448\u0435\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u0448\u0435\u0432\u0446\u043E\u0432\u0430\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\c#\\demoYshakoffnick\\demoyshakoffnick\\refreshwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CC67FD2A-5FA9-4351-AC63-C6B4BF46528C}|demoYshakoffnick\\demoYshakoffnick.csproj|solutionrelative:demoyshakoffnick\\refreshwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC67FD2A-5FA9-4351-AC63-C6B4BF46528C}|demoYshakoffnick\\demoYshakoffnick.csproj|e:\\\u0448\u0435\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u0448\u0435\u0432\u0446\u043E\u0432\u0430\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\c#\\demoyshakoffnick\\demoyshakoffnick\\refreshwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC67FD2A-5FA9-4351-AC63-C6B4BF46528C}|demoYshakoffnick\\demoYshakoffnick.csproj|solutionrelative:demoyshakoffnick\\refreshwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC67FD2A-5FA9-4351-AC63-C6B4BF46528C}|demoYshakoffnick\\demoYshakoffnick.csproj|E:\\\u0448\u0435\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u0448\u0435\u0432\u0446\u043E\u0432\u0430\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\c#\\demoYshakoffnick\\demoyshakoffnick\\addeditwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CC67FD2A-5FA9-4351-AC63-C6B4BF46528C}|demoYshakoffnick\\demoYshakoffnick.csproj|solutionrelative:demoyshakoffnick\\addeditwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC67FD2A-5FA9-4351-AC63-C6B4BF46528C}|demoYshakoffnick\\demoYshakoffnick.csproj|E:\\\u0448\u0435\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u0448\u0435\u0432\u0446\u043E\u0432\u0430\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\c#\\demoYshakoffnick\\demoyshakoffnick\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC67FD2A-5FA9-4351-AC63-C6B4BF46528C}|demoYshakoffnick\\demoYshakoffnick.csproj|solutionrelative:demoyshakoffnick\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC67FD2A-5FA9-4351-AC63-C6B4BF46528C}|demoYshakoffnick\\demoYshakoffnick.csproj|E:\\\u0448\u0435\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u0448\u0435\u0432\u0446\u043E\u0432\u0430\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\c#\\demoYshakoffnick\\demoyshakoffnick\\authorization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC67FD2A-5FA9-4351-AC63-C6B4BF46528C}|demoYshakoffnick\\demoYshakoffnick.csproj|solutionrelative:demoyshakoffnick\\authorization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC67FD2A-5FA9-4351-AC63-C6B4BF46528C}|demoYshakoffnick\\demoYshakoffnick.csproj|E:\\\u0448\u0435\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u0448\u0435\u0432\u0446\u043E\u0432\u0430\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\c#\\demoYshakoffnick\\demoyshakoffnick\\addeditwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC67FD2A-5FA9-4351-AC63-C6B4BF46528C}|demoYshakoffnick\\demoYshakoffnick.csproj|solutionrelative:demoyshakoffnick\\addeditwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC67FD2A-5FA9-4351-AC63-C6B4BF46528C}|demoYshakoffnick\\demoYshakoffnick.csproj|E:\\\u0448\u0435\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u0448\u0435\u0432\u0446\u043E\u0432\u0430\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\c#\\demoYshakoffnick\\demoyshakoffnick\\model1.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC67FD2A-5FA9-4351-AC63-C6B4BF46528C}|demoYshakoffnick\\demoYshakoffnick.csproj|solutionrelative:demoyshakoffnick\\model1.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC67FD2A-5FA9-4351-AC63-C6B4BF46528C}|demoYshakoffnick\\demoYshakoffnick.csproj|E:\\\u0448\u0435\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u0448\u0435\u0432\u0446\u043E\u0432\u0430\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\c#\\demoYshakoffnick\\demoyshakoffnick\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CC67FD2A-5FA9-4351-AC63-C6B4BF46528C}|demoYshakoffnick\\demoYshakoffnick.csproj|solutionrelative:demoyshakoffnick\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC67FD2A-5FA9-4351-AC63-C6B4BF46528C}|demoYshakoffnick\\demoYshakoffnick.csproj|E:\\\u0448\u0435\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u0448\u0435\u0432\u0446\u043E\u0432\u0430\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\c#\\demoYshakoffnick\\demoyshakoffnick\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{CC67FD2A-5FA9-4351-AC63-C6B4BF46528C}|demoYshakoffnick\\demoYshakoffnick.csproj|solutionrelative:demoyshakoffnick\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC67FD2A-5FA9-4351-AC63-C6B4BF46528C}|demoYshakoffnick\\demoYshakoffnick.csproj|E:\\\u0448\u0435\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u0448\u0435\u0432\u0446\u043E\u0432\u0430\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\c#\\demoYshakoffnick\\demoyshakoffnick\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CC67FD2A-5FA9-4351-AC63-C6B4BF46528C}|demoYshakoffnick\\demoYshakoffnick.csproj|solutionrelative:demoyshakoffnick\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC67FD2A-5FA9-4351-AC63-C6B4BF46528C}|demoYshakoffnick\\demoYshakoffnick.csproj|E:\\\u0448\u0435\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u0448\u0435\u0432\u0446\u043E\u0432\u0430\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\c#\\demoYshakoffnick\\demoyshakoffnick\\authorizationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CC67FD2A-5FA9-4351-AC63-C6B4BF46528C}|demoYshakoffnick\\demoYshakoffnick.csproj|solutionrelative:demoyshakoffnick\\authorizationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Model1.Context.cs",
+              "DocumentMoniker": "E:\\\u0448\u0435\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u0448\u0435\u0432\u0446\u043E\u0432\u0430\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\c#\\demoYshakoffnick\\demoYshakoffnick\\Model1.Context.cs",
+              "RelativeDocumentMoniker": "demoYshakoffnick\\Model1.Context.cs",
+              "ToolTip": "E:\\\u0448\u0435\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u0448\u0435\u0432\u0446\u043E\u0432\u0430\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\c#\\demoYshakoffnick\\demoYshakoffnick\\Model1.Context.cs",
+              "RelativeToolTip": "demoYshakoffnick\\Model1.Context.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T10:10:22.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\\u0448\u0435\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u0448\u0435\u0432\u0446\u043E\u0432\u0430\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\c#\\demoYshakoffnick\\demoYshakoffnick\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "demoYshakoffnick\\MainWindow.xaml",
+              "ToolTip": "E:\\\u0448\u0435\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u0448\u0435\u0432\u0446\u043E\u0432\u0430\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\c#\\demoYshakoffnick\\demoYshakoffnick\\MainWindow.xaml",
+              "RelativeToolTip": "demoYshakoffnick\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-16T07:58:18.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\\u0448\u0435\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u0448\u0435\u0432\u0446\u043E\u0432\u0430\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\c#\\demoYshakoffnick\\demoYshakoffnick\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "demoYshakoffnick\\MainWindow.xaml.cs",
+              "ToolTip": "E:\\\u0448\u0435\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u0448\u0435\u0432\u0446\u043E\u0432\u0430\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\c#\\demoYshakoffnick\\demoYshakoffnick\\MainWindow.xaml.cs",
+              "RelativeToolTip": "demoYshakoffnick\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAI8AAAAAAAAAAAAAAK0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T07:58:18.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Authorization.cs",
+              "DocumentMoniker": "E:\\\u0448\u0435\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u0448\u0435\u0432\u0446\u043E\u0432\u0430\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\c#\\demoYshakoffnick\\demoYshakoffnick\\Authorization.cs",
+              "RelativeDocumentMoniker": "demoYshakoffnick\\Authorization.cs",
+              "ToolTip": "E:\\\u0448\u0435\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u0448\u0435\u0432\u0446\u043E\u0432\u0430\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\c#\\demoYshakoffnick\\demoYshakoffnick\\Authorization.cs",
+              "RelativeToolTip": "demoYshakoffnick\\Authorization.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T08:13:37.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddEditWindow.xaml",
+              "DocumentMoniker": "E:\\\u0448\u0435\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u0448\u0435\u0432\u0446\u043E\u0432\u0430\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\c#\\demoYshakoffnick\\demoYshakoffnick\\AddEditWindow.xaml",
+              "RelativeDocumentMoniker": "demoYshakoffnick\\AddEditWindow.xaml",
+              "ToolTip": "E:\\\u0448\u0435\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u0448\u0435\u0432\u0446\u043E\u0432\u0430\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\c#\\demoYshakoffnick\\demoYshakoffnick\\AddEditWindow.xaml",
+              "RelativeToolTip": "demoYshakoffnick\\AddEditWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-16T08:17:28.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RefreshWindow.xaml.cs",
+              "DocumentMoniker": "E:\\\u0448\u0435\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u0448\u0435\u0432\u0446\u043E\u0432\u0430\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\c#\\demoYshakoffnick\\demoYshakoffnick\\RefreshWindow.xaml.cs",
+              "RelativeDocumentMoniker": "demoYshakoffnick\\RefreshWindow.xaml.cs",
+              "ToolTip": "E:\\\u0448\u0435\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u0448\u0435\u0432\u0446\u043E\u0432\u0430\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\c#\\demoYshakoffnick\\demoYshakoffnick\\RefreshWindow.xaml.cs",
+              "RelativeToolTip": "demoYshakoffnick\\RefreshWindow.xaml.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACsAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T08:16:12.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RefreshWindow.xaml",
+              "DocumentMoniker": "E:\\\u0448\u0435\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u0448\u0435\u0432\u0446\u043E\u0432\u0430\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\c#\\demoYshakoffnick\\demoYshakoffnick\\RefreshWindow.xaml",
+              "RelativeDocumentMoniker": "demoYshakoffnick\\RefreshWindow.xaml",
+              "ToolTip": "E:\\\u0448\u0435\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u0448\u0435\u0432\u0446\u043E\u0432\u0430\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\c#\\demoYshakoffnick\\demoYshakoffnick\\RefreshWindow.xaml",
+              "RelativeToolTip": "demoYshakoffnick\\RefreshWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-16T08:15:51.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.xaml",
+              "DocumentMoniker": "E:\\\u0448\u0435\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u0448\u0435\u0432\u0446\u043E\u0432\u0430\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\c#\\demoYshakoffnick\\demoYshakoffnick\\App.xaml",
+              "RelativeDocumentMoniker": "demoYshakoffnick\\App.xaml",
+              "ToolTip": "E:\\\u0448\u0435\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u0448\u0435\u0432\u0446\u043E\u0432\u0430\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\c#\\demoYshakoffnick\\demoYshakoffnick\\App.xaml",
+              "RelativeToolTip": "demoYshakoffnick\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-16T08:12:58.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddEditWindow.xaml.cs",
+              "DocumentMoniker": "E:\\\u0448\u0435\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u0448\u0435\u0432\u0446\u043E\u0432\u0430\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\c#\\demoYshakoffnick\\demoYshakoffnick\\AddEditWindow.xaml.cs",
+              "RelativeDocumentMoniker": "demoYshakoffnick\\AddEditWindow.xaml.cs",
+              "ToolTip": "E:\\\u0448\u0435\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u0448\u0435\u0432\u0446\u043E\u0432\u0430\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\c#\\demoYshakoffnick\\demoYshakoffnick\\AddEditWindow.xaml.cs",
+              "RelativeToolTip": "demoYshakoffnick\\AddEditWindow.xaml.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAADwv2AAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T08:17:51.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "E:\\\u0448\u0435\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u0448\u0435\u0432\u0446\u043E\u0432\u0430\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\c#\\demoYshakoffnick\\demoYshakoffnick\\Model1.edmx",
+              "RelativeDocumentMoniker": "demoYshakoffnick\\Model1.edmx",
+              "ToolTip": "E:\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u0448\u0435\u0432\u0446\u043E\u0432\u0430\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\c#\\demoYshakoffnick\\demoYshakoffnick\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u0448\u0435\u0432\u0446\u043E\u0432\u0430\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\c#\\demoYshakoffnick\\demoYshakoffnick\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-11-23T08:33:11.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuthorizationWindow.xaml",
+              "DocumentMoniker": "E:\\\u0448\u0435\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u0448\u0435\u0432\u0446\u043E\u0432\u0430\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\c#\\demoYshakoffnick\\demoYshakoffnick\\AuthorizationWindow.xaml",
+              "RelativeDocumentMoniker": "demoYshakoffnick\\AuthorizationWindow.xaml",
+              "ToolTip": "E:\\\u0448\u0435\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u0448\u0435\u0432\u0446\u043E\u0432\u0430\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\c#\\demoYshakoffnick\\demoYshakoffnick\\AuthorizationWindow.xaml",
+              "RelativeToolTip": "demoYshakoffnick\\AuthorizationWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-16T08:13:35.515Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

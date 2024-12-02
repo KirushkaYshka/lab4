@@ -1,0 +1,39 @@
+﻿<Window x:Class="demoYshakoffnick.AddEditWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:demoYshakoffnick"
+        mc:Ignorable="d"
+                WindowStartupLocation="CenterScreen"
+        Title="AddEditWindow" Height="450" Width="400">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Номер" Grid.Row="0"/>
+        <TextBlock Text="Предмет" Grid.Row="1"/>
+        <TextBlock Text="Доп предмет" Grid.Row="2"/>
+        <TextBlock Text="Фио преподователя" Grid.Row="3"/>
+        <TextBlock Text="ФИО учащегося" Grid.Row="4"/>
+        <TextBlock Text="Оценка" Grid.Row="5"/>
+
+        <TextBox Text="{Binding equipment_id}" Grid.Column="1" Width="170" HorizontalAlignment="Left"/>
+        <TextBox Text="" Grid.Column="1" Grid.Row="1" Width="170" HorizontalAlignment="Left"/>
+        <TextBox Name="EquipmentTextBox" Grid.Column="1" Grid.Row="2" Width="170" HorizontalAlignment="Left"/>
+        <TextBox Name="FaultTypeTextBox" Grid.Column="1" Grid.Row="3" Width="170" HorizontalAlignment="Left"/>
+        <TextBox Name="ClientTextBox" Grid.Column="1" Grid.Row="4" Width="170" HorizontalAlignment="Left"/>
+        <ComboBox SelectedItem="{Binding status_name}" Grid.Column="1" Grid.Row="5" x:Name="ComboStatus" DisplayMemberPath="status_name" Width="170" HorizontalAlignment="Left"/>
+        <Button Content="Сохранить" Grid.ColumnSpan="2" Grid.Row="7" Name="BtnSave" Click="BtnSave_Click"/>
+    </Grid>
+</Window>
